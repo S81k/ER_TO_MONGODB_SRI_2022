@@ -1,95 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 #define FAST() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 
-#define MOD 1000000007
 #define pb push_back
 #define ll long long
 
-
-/* Sorting on column basis */
-
-// bool sortcol1(vector<ll>& v1,vector<ll>& v2 ) {
- 
-// if(v1[0] == v2[0])
-//     return v1[1] < v2[1];
-// else
-//     return v1[0] < v2[0];
- 
-
-// }
-
-
-/*  declaring an array of size n
-
-ll n;
-cin>>n;
-ll a[n];
-for(ll i=0;i<n;i++)
-{
-cin>>a[i];
-}
-
-*/
-
-/* declaring string of length n 
-
-ll n;
-cin>>n;
-string s;
-cin>>s;
-ll len=s.length();
-
-*/
-
-/* Computing x^y mod p */
-
-// ll power(ll x, ll y, ll p)
-// {
-//     ll res = 1;
- 
-//     x = x % p;
- 
-//     while (y > 0) 
-//     {
-//             if (y & 1)
-//             res = (res * x) % p;
- 
-//         y = y >> 1; 
-//         x = (x * x) % p;
-//     }
-//     return res;
-// }
-
-
-
-/* To check whether a number is prime or not */
-
-// bool isPrime(int n)
-// {
-   
-//     if (n <= 1)
-//         return false;
-//     if (n <= 3)
-//         return true;
- 
-//     if (n % 2 == 0 || n % 3 == 0)
-//         return false;
-
-//     for (int i = 5; i * i <= n; i = i + 6)
-//         if (n % i == 0 || n % (i + 2) == 0)
-//             return false;
- 
-//     return true;
-// }
-
-
-
-
-
-
-void Rush()
+void ER_TO_MONGODB()
 {
 
     int n; 
@@ -249,15 +165,10 @@ int main()
     #endif
 
     ll test=1;
-   
-    // ll test;
-    // cin>>test;
-
-
 
 while(test--)
 {
-    Rush();
+    ER_TO_MONGODB();
 }
 
     return 0;
